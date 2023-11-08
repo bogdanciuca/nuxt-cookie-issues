@@ -51,6 +51,7 @@ const cookie365DaysObject = useCookie('cookie365DaysObject', { default: () => ({
     {{ cookie365DaysObject.val }}
   </div>
 
+  <div>PS: Last two cookie refs seem to interact with each other, try pressing the 2 buttons alternatively</div>
 </template>
 
 <style scoped>
